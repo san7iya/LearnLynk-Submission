@@ -47,11 +47,11 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ### 4. Start the frontend:
 npm run dev
-Visit:http://localhost:3000/dashboard/today
+Visit: http://localhost:3000/dashboard/today
 
 ---
 
-### Setup Supabase Backend
+## Setup Supabase Backend
 
 - Run schema.sql in Supabase SQL Editor
 - Run rls_policies.sql after schema
@@ -62,7 +62,7 @@ Visit:http://localhost:3000/dashboard/today
 
 ---
 
-### Testing
+## Testing
 
 Insert dummy data using SQL
 
