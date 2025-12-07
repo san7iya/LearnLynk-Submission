@@ -33,21 +33,19 @@ Designed a secure Stripe Checkout payment flow using backend session creation, d
 ## How to Run Locally
 
 ### 1. Clone the Repository
-git clone <your-repo-link>
-cd LearnLynk-Submission
+- git clone <your-repo-link>
+- cd LearnLynk-Submission
 
 ### 2. Setup Frontend
-cd frontend
-npm install
-Create a .env.local file inside frontend:
-
-### 3. env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+- cd frontend
+- npm install
+- Create a .env.local file inside frontend:
+    - NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+    - NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ### 4. Start the frontend:
-npm run dev
-Visit: http://localhost:3000/dashboard/today
+- npm run dev
+- Visit: http://localhost:3000/dashboard/today
 
 ---
 
